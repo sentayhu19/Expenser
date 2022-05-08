@@ -1,0 +1,56 @@
+.header-wrap {
+  width: 50%;
+  margin: auto;
+  background-color: azure;
+}
+
+.header {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+
+.header-logo {
+  font-size: 20px;
+  background-color: rgb(78, 131, 239);
+  color: white;
+  align-items: center;
+}
+
+.e {
+  font-size: 35px;
+  background-color: blue;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.header-btn {
+  border: solid 1px black;
+  height: 25px;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-wrap {
+    width: 90%;
+  }
+
+  .header-logo {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .header-wrap {
+    width: 100%;
+  }
+
+  .header-logo {
+    font-size: 10px;
+  }
+}
