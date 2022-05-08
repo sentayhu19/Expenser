@@ -15,12 +15,14 @@
   font-size: 20px;
   background-color: rgb(78, 131, 239);
   color: white;
+  align-items: center;
 }
 
 .e {
   font-size: 35px;
   background-color: blue;
-  border-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .header-btn {
